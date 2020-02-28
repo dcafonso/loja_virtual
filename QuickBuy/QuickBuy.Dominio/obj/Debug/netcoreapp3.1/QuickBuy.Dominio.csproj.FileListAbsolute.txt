@@ -1,0 +1,8 @@
+C:\Desenv\ASP_NET_Core_Angular\loja_virtual\QuickBuy\QuickBuy.Dominio\bin\Debug\netcoreapp3.1\QuickBuy.Dominio.deps.json
+C:\Desenv\ASP_NET_Core_Angular\loja_virtual\QuickBuy\QuickBuy.Dominio\bin\Debug\netcoreapp3.1\QuickBuy.Dominio.dll
+C:\Desenv\ASP_NET_Core_Angular\loja_virtual\QuickBuy\QuickBuy.Dominio\bin\Debug\netcoreapp3.1\QuickBuy.Dominio.pdb
+C:\Desenv\ASP_NET_Core_Angular\loja_virtual\QuickBuy\QuickBuy.Dominio\obj\Debug\netcoreapp3.1\QuickBuy.Dominio.csprojAssemblyReference.cache
+C:\Desenv\ASP_NET_Core_Angular\loja_virtual\QuickBuy\QuickBuy.Dominio\obj\Debug\netcoreapp3.1\QuickBuy.Dominio.AssemblyInfoInputs.cache
+C:\Desenv\ASP_NET_Core_Angular\loja_virtual\QuickBuy\QuickBuy.Dominio\obj\Debug\netcoreapp3.1\QuickBuy.Dominio.AssemblyInfo.cs
+C:\Desenv\ASP_NET_Core_Angular\loja_virtual\QuickBuy\QuickBuy.Dominio\obj\Debug\netcoreapp3.1\QuickBuy.Dominio.dll
+C:\Desenv\ASP_NET_Core_Angular\loja_virtual\QuickBuy\QuickBuy.Dominio\obj\Debug\netcoreapp3.1\QuickBuy.Dominio.pdb
