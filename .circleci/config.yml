@@ -9,4 +9,4 @@ jobs:
           name: "Build Application according to some given configuration"
           executor:
             name: windows/default
-          command: dotnet.exe build --configuration Release
+          command: dotnet build --configuration Release
