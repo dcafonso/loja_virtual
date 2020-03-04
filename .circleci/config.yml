@@ -7,4 +7,4 @@ jobs:
       - checkout
       - run: find .
       - run: dotnet restore "./QuickBuy/QuickBuy.sln"
-      - run: dotnet build "./QuickBuy/QuickBuy.sln"
+      - run: dotnet build "./QuickBuy/QuickBuy.sln" -c Release
