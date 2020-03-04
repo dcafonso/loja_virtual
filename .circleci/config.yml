@@ -5,7 +5,6 @@ jobs:
       - image: mcr.microsoft.com/dotnet/core/sdk:3.1
     steps:
       - checkout
-    run:
-      description: Build application with Release configuration
-      executor:
-        name: windows/default
+      - run: find .
+      - run: dotnet restore
+      - run: dotnet build
