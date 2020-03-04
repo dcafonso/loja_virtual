@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "QuickBuy.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/QuickBuy.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuickBuy.Dominio.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "QuickBuy.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../QuickBuy.Dominio/QuickBuy.Dominio.csproj",
+      "msbuildProject": "../QuickBuy.Dominio/QuickBuy.Dominio.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "QuickBuy.Dominio >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\dcafo\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Desenv\\ASP_NET_Core_Angular\\loja_virtual\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj": {
+              "projectPath": "C:\\Desenv\\ASP_NET_Core_Angular\\loja_virtual\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
