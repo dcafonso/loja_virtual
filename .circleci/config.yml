@@ -7,6 +7,7 @@ jobs:
       DOTNET_ROLL_FORWARD_ON_NO_CANDIDATE_FX: 2
     steps:
       - checkout
-    description: Build application with Release configuration
-    executor:
-      name: windows/default
+    run:
+      description: Build application with Release configuration
+      executor:
+        name: windows/default
