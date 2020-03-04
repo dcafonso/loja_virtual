@@ -3,10 +3,10 @@ jobs:
   build:
     docker:
       - image: mcr.microsoft.com/dotnet/core/sdk:3.1
-    executor:
-      name: windows/default
     steps:
       - checkout
       - run:
           name: "Build Application according to some given configuration"
+          executor:
+            name: windows/default
           command: dotnet.exe build --configuration Release
