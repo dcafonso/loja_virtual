@@ -6,5 +6,5 @@ jobs:
     steps:
       - checkout
       - run: find .
-      - run: dotnet restore
-      - run: dotnet build
+      - run: dotnet restore "./QuickBuy/QuickBuy.sln"
+      - run: dotnet build "./QuickBuy/QuickBuy.sln"
