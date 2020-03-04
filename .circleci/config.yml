@@ -3,11 +3,10 @@ jobs:
   build:
     docker:
       - image: mcr.microsoft.com/dotnet/core/sdk:3.1
-    environment:
-      DOTNET_ROLL_FORWARD_ON_NO_CANDIDATE_FX: 2
+    executor:
+      name: windows/default
     steps:
       - checkout
-    run:
-      description: Build application with Release configuration
-      executor:
-        name: windows/default
+      - run:
+          name: "Build Application according to some given configuration"
+          command: dotnet.exe build --configuration Release
