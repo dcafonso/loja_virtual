@@ -7,6 +7,5 @@ jobs:
       DOTNET_ROLL_FORWARD_ON_NO_CANDIDATE_FX: 2
     steps:
       - checkout
-      - run:
-          name: Build
-          command: dotnet build "loja_virtual/QuickBuy/QuickBuy.sln"
+    executor:
+      name: windows/default
