@@ -5,7 +5,7 @@ jobs:
       - image: mcr.microsoft.com/dotnet/core/sdk:3.1
     steps:
       - checkout
-      - run:
-          name: "Build Application according to some given configuration"
-          executor:
-            name: windows/default
+    run:
+      description: Build application with Release configuration
+      executor:
+        name: windows/default
