@@ -1,0 +1,6 @@
+{
+  "ConnectionString": {
+    "SQLServerConnection": "",
+    "MySqlConnection": "server=localhost:3306;uid=root;pwd=desenv@mysql;database=QuickBuyDb"
+  }
+}
