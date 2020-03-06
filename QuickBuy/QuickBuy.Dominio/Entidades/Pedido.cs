@@ -8,14 +8,15 @@ namespace QuickBuy.Dominio.Entidades
     public class Pedido : Entidade
     {
         public int Id { get; set; }
-        public DateTime DataPedido { get; set; }
         public int UsuarioId { get; set; }
+        public virtual Usuario Usuario { get; set; } // Relacionamento com do pedido com o usuário
+        public DateTime DataPedido { get; set; }
         public DateTime DataPrevisaoEntrega { get; set; }
         public string CEP { get; set; }
         public string Estado { get; set; }
         public string Cidade { get; set; }
         public string Endereco { get; set; }
-        public int NroEndereco { get; set; }
+        public string NroEndereco { get; set; }
         public int FormaPagtoId { get; set; }
         public FormaPagto FormaPagto { get; set; }
 
